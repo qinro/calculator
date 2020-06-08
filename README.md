@@ -23,7 +23,7 @@ npm run build --report
 
 ## 效果图
 
-![](https://user-gold-cdn.xitu.io/2020/6/8/172930a1ce89a59a?w=946&h=995&f=png&s=56196)
+![avatar](./src/assets/show.png)
 
 
 ## 核心代码
