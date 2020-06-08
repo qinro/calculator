@@ -6,8 +6,7 @@ vue demo
 
 
 ## 效果图
-
-![avatar](/calculater/src/assets/show.png)
+![](https://user-gold-cdn.xitu.io/2020/6/8/172930a1ce89a59a?w=946&h=995&f=png&s=56196)
 
 
 ## 样式代码
