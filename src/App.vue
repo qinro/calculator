@@ -46,7 +46,6 @@ export default {
     append(character) {
       // start
       if (this.equation === "0" && !this.isOperator(character)) {
-        console.log("append start runing")
         if (character === ".") {
           this.equation += "" + character;
           this.isDecimalAdded = true;
@@ -60,7 +59,6 @@ export default {
 
       // If number
       if (!this.isOperator(character)) {
-        console.log("append number runing")
 
         if (character === "." && this.isDecimalAdded) {
           return;
@@ -76,7 +74,6 @@ export default {
 
       // Added Operator
       if (this.isOperator(character) && !this.isOperatorAdded) {
-        console.log("append Added runing")
 
         this.equation += "" + character;
         this.isDecimalAdded = false;
@@ -91,7 +88,6 @@ export default {
       let result = this.equation
         .replace(new RegExp("×", "g"), "*")
         .replace(new RegExp("÷", "g"), "/");
-      console.log('runinf')
       this.equation = parseFloat(eval(result).toFixed(9)).toString();
       this.isDecimalAdded = false;
       this.isOperatorAdded = false;
