@@ -7,7 +7,7 @@ vue demo
 
 ## 效果图
 
-![avatar](./src/assets/show.png)
+![avatar](/calculater/src/assets/show.png)
 
 
 ## 样式代码
